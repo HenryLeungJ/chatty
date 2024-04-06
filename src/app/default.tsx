@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex flex-col h-full w-full items-center justify-center p-24">
-      <img src="/dance-dancing.gif" alt="dancing snoopy" width="auto"/>
+      <Image src="/dance-dancing.gif" alt="dancing snoopy"/>
       <div className="h-full">
         <h1 className="font-black text-xl mb-4">Enter Your Desired Username</h1>
       </div>
